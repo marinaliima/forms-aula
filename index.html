@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formulários</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+
+    <body>
+        <h1>Cadastro de Heróis</h1>
+        <form action="#" method="get">
+            <!--Os campos ficam aqui dentro-->
+            <label for="busca">Buscar</label>
+            <input id="busca" name="busca" type="text"/>
+            
+            <label for="email">Email</label>
+            <input id="email" name="busca" type="email"/>
+
+            <label for="idade">Idade</label>
+            <input id="idade" name="idade" type="number"/>
+
+            <label for="nascimento">Nascimento</label>
+            <input id="nascimento" name="nascimento" type="date"/>
+
+            <p>Qual período você prefere dormir?</p>
+            <input id="manha" name="periodo" type="radio"/>
+            <label for="manha">Manhã</label>
+
+            <input id="tarde" name="periodo" type="radio"/>
+            <label for="tarde">Tarde</label>
+
+            <input id="noite" name="periodo" type="radio"/>
+            <label for="noite">Noite</label>
+
+            <input id="novidades" name="novidades" type="checkbox"/>
+            <label for="novidades">Quero receber novidades!</label>
+
+            <br>
+
+            <label for="comida">Comida preferida</label>
+            <select id="comida" name="comida">
+                <option>Escolha uma comida</option>
+                <option>Grilo frito</option>
+                <option>Sapo frito</option>
+                <option>Rato frito</option>
+            </select>
+
+            <label for="descricao">Como você quer sua comida?</label>
+            <textarea id="descricao" name="descricao" rows="4"></textarea>
+
+            <button type="submit">Buscar</button>
+            <button type="reset">Limpar campos</button>
+        </form>
+    </body>
+</html>
